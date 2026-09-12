@@ -1,0 +1,22 @@
+{
+  "name": "sechs-perspektiven",
+  "description": "Deutschsprachige Denkhüte nach de Bono für Beratung, Gremienvorlagen und Workshops im DACH-Raum",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael Dohmen",
+    "url": "https://github.com/m-dohmen"
+  },
+  "homepage": "https://github.com/m-dohmen/sechs-perspektiven",
+  "repository": "https://github.com/m-dohmen/sechs-perspektiven",
+  "license": "MIT",
+  "keywords": [
+    "deutsch",
+    "de-bono",
+    "denkhuete",
+    "six-thinking-hats",
+    "entscheidung",
+    "moderation",
+    "beratung",
+    "dach"
+  ]
+}

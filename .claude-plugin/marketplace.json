@@ -1,0 +1,19 @@
+{
+  "name": "sechs-perspektiven",
+  "owner": {
+    "name": "Michael Dohmen",
+    "url": "https://github.com/m-dohmen"
+  },
+  "plugins": [
+    {
+      "name": "sechs-perspektiven",
+      "source": "./",
+      "description": "Deutschsprachige Denkhüte nach de Bono für Beratung, Gremienvorlagen und Workshops im DACH-Raum",
+      "version": "1.0.0",
+      "license": "MIT",
+      "author": {
+        "name": "Michael Dohmen"
+      }
+    }
+  ]
+}
