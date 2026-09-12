@@ -1,0 +1,50 @@
+name: Fehlender DACH-Prüfpunkt
+description: Eine Rechts-, Aufsichts- oder Gremienfrage melden, die der Skill kennen sollte
+labels: ["dach-pruefpunkt"]
+body:
+  - type: dropdown
+    id: land
+    attributes:
+      label: Land
+      options:
+        - Deutschland
+        - Österreich
+        - Schweiz
+        - EU-weit
+        - mehrere
+    validations:
+      required: true
+  - type: textarea
+    id: pruefpunkt
+    attributes:
+      label: Der Prüfpunkt
+      description: Gesetz oder Regelwerk, Paragraf und Anwendungsfall in einem Satz
+      placeholder: "§ 87 Abs. 1 Nr. 6 BetrVG – mitbestimmungspflichtig, sobald ein System zur Verhaltens- oder Leistungskontrolle geeignet ist."
+    validations:
+      required: true
+  - type: dropdown
+    id: perspektive
+    attributes:
+      label: Zu welcher Perspektive gehört er?
+      options:
+        - Weiß (Fakten)
+        - Rot (Gefühl)
+        - Schwarz (Risiko)
+        - Gelb (Nutzen)
+        - Grün (Kreativität)
+    validations:
+      required: true
+  - type: textarea
+    id: relevanz
+    attributes:
+      label: Warum übersieht man ihn?
+      description: Prüfpunkte, die ohnehin jede Beraterin kennt, blähen den Skill nur auf. Was macht diesen hier leicht übersehbar oder teuer?
+    validations:
+      required: true
+  - type: input
+    id: quelle
+    attributes:
+      label: Quelle
+      description: Gesetzestext, Aufsichtsrundschreiben oder Fundstelle
+    validations:
+      required: false

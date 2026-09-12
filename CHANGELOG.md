@@ -1,26 +1,24 @@
-# Änderungen
+# Changelog
 
-Das Format folgt [Keep a Changelog](https://keepachangelog.com/de/1.1.0/), die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
+## v1.0.0 – 2026-09-12
 
-## [1.0.0] – 2026-09-12
+Erste Fassung. Deutsche Neufassung des Skills [six-thinking-hats](https://github.com/ysskrishna/ai-agent-skills/tree/main/skills/six-thinking-hats) von ysskrishna (MIT).
 
-Erste Veröffentlichung. Deutschsprachige Weiterentwicklung von [six-thinking-hats](https://github.com/ysskrishna/ai-agent-skills/tree/main/skills/six-thinking-hats) von ysskrishna (MIT).
+**Aus dem Original übernommen**
 
-### Neu
+- Aufbau mit einer Perspektive je Abschnitt, Blau am Anfang und am Ende
+- Modi Vollbild, Kreativ, Risiko, Entscheidung und Frei
+- Tiefenstufen Kurz, Standard, Tief
+- Pflichtformate in Weiß, Schwarz und Gelb
+- Die Regel, dass die Synthese nichts Neues einführt
 
-- Skill `sechs-perspektiven` mit sechs Perspektiven, sieben Modi und drei Tiefenstufen
-- Abschnitt **DACH-Prüfpunkte**: Mitbestimmung nach BetrVG, ArbVG und Mitwirkungsgesetz, DSGVO und revDSG, EU AI Act, NIS2, DORA, MaRisk, Vergaberecht, Aufsicht durch BaFin, FMA und FINMA
-- Modus **Vorlage** mit angehängter Beschlussvorlage für Gremiensitzungen
-- Modus **Workshop** für getaktete Moderation mit mehreren Personen
-- **Adressat** als Pflichtangabe im Startblock
-- Risikoeinstufung nach Eintritt und Wirkung in der Tiefe „Tief“
-- Sprachregeln: Siezen, deutsche Typografie, kein Beraterdenglisch, kein Nominalstil
-- Referenzdateien `beispielsitzung.md`, `dach-pruefpunkte.md`, `moderation.md`
-- Verpackung als Claude-Code-Plugin samt Marketplace-Eintrag
+**Neu für den DACH-Raum und die Beratung**
 
-### Geändert gegenüber der Vorlage
-
-- Weiß: Zahlen ohne Quelle gelten als Annahme oder offener Punkt, nie als belegt
-- Rot: geäußerte und vermutete Gefühle werden ausdrücklich getrennt gekennzeichnet
-- Widersprüche zwischen Angaben werden in Weiß festgehalten statt aufgelöst
-- Bei Personalthemen bleibt Rot bei Wirkungen auf Beteiligte, nicht bei der Bewertung einzelner Personen
+- Abschnitt **DACH-Prüfpunkte**: Mitbestimmung nach BetrVG, ArbVG und Mitwirkungsgesetz, DSGVO und revDSG, EU AI Act, NIS2, DORA, MaRisk, Vergaberecht, Lieferkettensorgfalt
+- Modus **Vorlage** mit angehängter **Beschlussvorlage** für Gremiensitzungen
+- Modus **Workshop** für moderierte Runden, eine Perspektive je Nachricht
+- **Adressat** als Pflichtangabe beim Start, neben Leitfrage, Modus, Tiefe und Reihenfolge
+- Schärfere Belegregel in Weiß: eine Zahl ohne Quelle ist nie `[BELEGT]`
+- Risiken in der Tiefe **Tief** mit Eintritt und Wirkung bewertet
+- Abschnitt **Sprache und Form**: Siezen, deutsche Typografie, kein Beraterdenglisch, kein Nominalstil
+- Referenzdateien `dach-pruefpunkte.md`, `moderation.md` und `beispielsitzung.md`

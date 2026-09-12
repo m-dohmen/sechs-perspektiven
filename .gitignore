@@ -9,3 +9,6 @@
 
 # lokale Claude-Code-Einstellungen
 .claude/settings.local.json
+
+# Bauergebnisse
+dist/

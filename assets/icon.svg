@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Sechs Perspektiven">
+  <title>Sechs Perspektiven</title>
+  <rect width="512" height="512" rx="112" fill="#14181d"/>
+  <g>
+    <circle cx="146" cy="196" r="50" fill="#3f86c8"/>
+    <circle cx="256" cy="196" r="50" fill="#f4f1ea"/>
+    <circle cx="366" cy="196" r="50" fill="#e2564d"/>
+    <circle cx="146" cy="316" r="50" fill="#f4f1ea"/>
+    <circle cx="146" cy="316" r="40" fill="#14181d"/>
+    <circle cx="256" cy="316" r="50" fill="#e8b13a"/>
+    <circle cx="366" cy="316" r="50" fill="#4a9e6a"/>
+  </g>
+</svg>

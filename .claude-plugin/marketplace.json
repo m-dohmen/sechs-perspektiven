@@ -2,6 +2,7 @@
   "name": "sechs-perspektiven",
   "owner": {
     "name": "Michael Dohmen",
+    "email": "kontakt@incubateai.de",
     "url": "https://github.com/m-dohmen"
   },
   "plugins": [
@@ -12,7 +13,8 @@
       "version": "1.0.0",
       "license": "MIT",
       "author": {
-        "name": "Michael Dohmen"
+        "name": "Michael Dohmen",
+        "email": "kontakt@incubateai.de"
       }
     }
   ]

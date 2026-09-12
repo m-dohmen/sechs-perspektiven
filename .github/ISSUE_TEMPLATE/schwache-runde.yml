@@ -1,0 +1,39 @@
+name: Schwache Runde / Fehlverhalten
+description: Der Skill hat Perspektiven vermischt, Formate verletzt, Zahlen erfunden oder eine Empfehlung ohne Grundlage gegeben
+labels: ["fehlverhalten"]
+body:
+  - type: textarea
+    id: leitfrage
+    attributes:
+      label: Leitfrage
+      description: Die Frage, mit der die Runde gestartet wurde
+    validations:
+      required: true
+  - type: input
+    id: modus
+    attributes:
+      label: Modus und Tiefe
+      description: Vollbild, Kreativ, Risiko, Entscheidung, Vorlage, Workshop, Frei – und Kurz, Standard oder Tief
+    validations:
+      required: false
+  - type: textarea
+    id: ergebnis
+    attributes:
+      label: Was der Skill geliefert hat
+      description: Der betroffene Abschnitt genügt, nicht die ganze Antwort
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was daran falsch ist
+      description: Welche Regel oder welcher Punkt aus der Checkliste in SKILL.md wurde verletzt?
+    validations:
+      required: true
+  - type: input
+    id: umgebung
+    attributes:
+      label: Umgebung
+      description: Claude Code, Cowork/claude.ai, Codex CLI, API – und wenn bekannt, welches Modell
+    validations:
+      required: false
